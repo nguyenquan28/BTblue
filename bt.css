@@ -4,7 +4,129 @@
 	margin: 0 auto;
 }
 .khung .tuan{
-
+	float: left;
+	width: 100%;
+	height: 100px;
+	background: #66b3ff;
+}
+.tuan .tlogo{
+	float: left;
+	width: 40%;
+	height: 100%;
+	background: #66b3ff;
+}
+.tuan .tmenu{
+	float: left;
+	width: 60%;
+	height: 100%;
+	background: #66b3ff;
+}
+.tlogo h3{
+	font-size: 40px;
+	color: white;
+	margin-left: 50px;
+	margin-top: 25px;
+}
+.tmenu ul{
+	list-style: none;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+.tmenu ul li{
+	display: block;
+	float: left;
+	width: 20%;
+	height: 100%;
+	text-align: center;
+	line-height: 100px;
+	margin:0;
+}
+.tmenu ul li a{
+	display: block;
+	width: 85%;
+	height: 50%;
+	color: white;
+	border-radius: 10px;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
+	line-height: 50px;
+	margin-top: 25px;
+}
+.tmenu ul li a:hover{
+	color: #ffcc00;
+	background: white;
+}
+.khung .tuan2{
+	float: left;
+	width: 100%;
+	height: 350px;
+	background: #002080;
+}
+.tuan2 .tchenchu{
+	float: left;
+	width: 50%;
+	height: 100%;
+	background: #002080;
+}
+.tchenchu .tinfo{
+	display: block;
+	float: left;
+	width: 150px;
+	height: 40px;
+	background:#002080;
+	border-radius: 10px;
+	margin-top: 30px;
+	margin-left: 5px;
+}
+.tinfo .htinfo{
+	float: left;
+	width: 25%;
+	height: 100%;
+	background: url(https://cdn.tgdd.vn/Products/Images/1783/71996/Ghephinhhon100manh-icon.png);
+	background-repeat: none;
+	background-size: 100%;
+	
+}
+.tinfo .ctinfo{
+	float: left;
+	width: 75%;
+	height: 100%;
+	background: #66b3ff;
+}
+.ctinfo a{
+	display: block;
+	color: white;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.ctinfo a:hover{
+	color: #ffcc00;
+}
+.tuan2 .tchenhinh{
+	float: left;
+	width: 50%;
+	height: 100%;
+}
+.tchenchu h3{
+	font-size: 25px;
+	color: 	blue;
+	padding-top: 100px;
+}
+.tchenchu p{
+	font-size: 40px;
+	color: #ffcc00;	
+	line-height: 5px;
+	margin-top: 20px;
+}
+.tchenhinh img{
+	width: 90%;
+	height: 100%;
 }
 .khung .dang{
 
