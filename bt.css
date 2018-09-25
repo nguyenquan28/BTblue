@@ -4,14 +4,234 @@
 	margin: 0 auto;
 }
 .khung .tuan{
-
+	float: left;
+	width: 100%;
+	height:auto;
+	background: #66b3ff;
+}
+.tuan .tlogo{
+	float: left;
+	width: 40%;
+	height: 100%;
+	background: #66b3ff;
+}
+.tuan .tmenu{
+	float: left;
+	width: 60%;
+	height: 100%;
+	background: #66b3ff;
+}
+.tlogo h3{
+	font-size: 40px;
+	color: white;
+	margin-left: 50px;
+	margin-top: 25px;
+}
+.tmenu ul{
+	list-style: none;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+.tmenu ul li{
+	display: block;
+	float: left;
+	width: 20%;
+	height: 100%;
+	text-align: center;
+	line-height: 100px;
+	margin:0;
+}
+.tmenu ul li a{
+	display: block;
+	width: 85%;
+	height: 50%;
+	color: white;
+	border-radius: 10px;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
+	line-height: 50px;
+	margin-top: 25px;
+}
+.tmenu ul li a:hover{
+	color: #ffcc00;
+	background: white;
+}
+.tuan .tuan2{
+	float: left;
+	width: 100%;
+	height: 350px;
+	background: #002080;
+}
+.tuan2 .tchenchu{
+	float: left;
+	width: 50%;
+	height: 100%;
+	background: #002080;
+}
+.tchenchu .tinfo{
+	display: block;
+	float: left;
+	width: 150px;
+	height: 40px;
+	background:#002080;
+	border-radius: 10px;
+	margin-top: 30px;
+	margin-left: 5px;
+}
+.tinfo .htinfo{
+	float: left;
+	width: 25%;
+	height: 100%;
+	background: url(https://cdn.tgdd.vn/Products/Images/1783/71996/Ghephinhhon100manh-icon.png);
+	background-repeat: none;
+	background-size: 100%;
+	
+}
+.tinfo .ctinfo{
+	float: left;
+	width: 75%;
+	height: 100%;
+	background: #66b3ff;
+}
+.ctinfo a{
+	display: block;
+	color: white;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.ctinfo a:hover{
+	color: #ffcc00;
+}
+.tuan2 .tchenhinh{
+	float: left;
+	width: 50%;
+	height: 100%;
+}
+.tchenchu h3{
+	font-size: 25px;
+	color: 	blue;
+	padding-top: 100px;
+}
+.tchenchu p{
+	font-size: 40px;
+	color: #ffcc00;	
+	line-height: 5px;
+	margin-top: 20px;
+}
+.tchenhinh img{
+	width: 90%;
+	height: 100%;
 }
 .khung .dang{
 
 }
 .khung .quan{
-
+	float: left;
+	width: 100%;
+	height: auto;
+	background: pink;
 }
+.quan .before{
+	float: left;
+	width: 70%;
+	height: 400px;
+}
+.quan .after{
+	float: left;
+	width: 30%;
+	height: 400px;
+}
+.before .qheader{
+	float: left;
+	width: 100%;
+	height: 75px;
+}
+.before .qp{
+	float: left;
+	width: 100%;
+	height: 250px;
+}
+.before .qlast{
+	float: left;
+	width: 100%;
+	height: 75px;
+}
+.after .qheader{
+	float: left;
+	width: 100%;
+	height: 75px;
+}
+.after .qimg{
+	float: left;
+	width: 100%;
+	height: 250px;
+}
+.after .qlast2{
+	float: left;
+	width: 100%;
+	height: 75px;
+}
+.qheader h2{
+	margin: 0;
+	color: blue;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+.qheader p{
+	margin: 0;
+	color: yellow;
+	padding-left: 10px;
+	font-size: 20px;
+}
+.qp p{
+	padding-left: 10px;
+	font-size: 20px;
+	padding-right: 10px;
+	color: grey;
+}
+.qlast a{
+	display: block;
+	width: 25%;
+	height: 40px;
+	background: blue;
+	margin-left: 10px;
+	margin-top: 10px;
+	font-size: 25px;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+.qlast a:hover {
+	color: red;
+}
+.qimg {
+	background-image: url('https://i687.photobucket.com/albums/vv237/4-one/4-1/HT2/CSE_a68.png');
+	background-size: 100% 100%;	
+}
+.qimg p{
+	color: grey;
+	font-size: 18px;
+	padding-top: 50px;
+	padding-left: 65px;
+	padding-right: 30px;
+}
+.qlast2 p{
+	padding-left: 10px;
+	font-size: 18px;
+	color: grey;
+}
+.qlast2 a{
+	text-decoration: none;
+}
+
 .khung .chi{
 	float: left;
 	width: 100%;
@@ -127,7 +347,7 @@
 	background: #2f81c4;
 }
 .chi3 p {
-	text-align: center;
+	text-align: center;s
 	font-size: 20px;
 	color: white;
 	text-transform: uppercase;
