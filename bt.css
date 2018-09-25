@@ -10,8 +10,101 @@
 
 }
 .khung .quan{
-
+	float: left;
+	width: 100%;
+	height: auto;
+}
+.quan .before{
+	float: left;
+	width: 70%;
+	height: 400px;
+}
+.quan .after{
+	float: left;
+	width: 30%;
+	height: 400px;
+}
+.before .qheader{
+	float: left;
+	width: 100%;
+	height: 75px;
+}
+.before .qp{
+	float: left;
+	width: 100%;
+	height: 250px;
+}
+.before .qlast{
+	float: left;
+	width: 100%;
+	height: 75px;
+}
+.after .qheader{
+	float: left;
+	width: 100%;
+	height: 75px;
+}
+.after .qimg{
+	float: left;
+	width: 100%;
+	height: 250px;
+}
+.after .qlast2{
+	float: left;
+	width: 100%;
+	height: 75px;
+}
+.qheader h2{
+	margin: 0;
+	color: blue;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+.qheader p{
+	margin: 0;
+	color: yellow;
+	padding-left: 10px;
+	font-size: 20px;
+}
+.qp p{
+	padding-left: 10px;
+	font-size: 20px;
+	padding-right: 10px;
+	color: grey;
+}
+.qlast a{
+	display: block;
+	width: 25%;
+	height: 40px;
+	background: blue;
+	margin-left: 10px;
+	margin-top: 10px;
+	font-size: 25px;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+.qimg {
+	background-image: url('https://i687.photobucket.com/albums/vv237/4-one/4-1/HT2/CSE_a68.png');
+	background-size: 100% 100%;	
+}
+.qimg p{
+	color: grey;
+	font-size: 18px;
+	padding-top: 50px;
+	padding-left: 65px;
+	padding-right: 30px;
+}
+.qlast2 p{
+	padding-left: 10px;
+	font-size: 18px;
+	color: grey;
+}
+.qlast2 p a{
+	text-decoration: none;
 }
 .khung .chi{
-	
+
 }
