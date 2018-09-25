@@ -6,7 +6,7 @@
 .khung .tuan{
 	float: left;
 	width: 100%;
-	height: 100px;
+	height:auto;
 	background: #66b3ff;
 }
 .tuan .tlogo{
@@ -59,7 +59,7 @@
 	color: #ffcc00;
 	background: white;
 }
-.khung .tuan2{
+.tuan .tuan2{
 	float: left;
 	width: 100%;
 	height: 350px;
@@ -135,6 +135,7 @@
 	float: left;
 	width: 100%;
 	height: auto;
+	background: pink;
 }
 .quan .before{
 	float: left;
