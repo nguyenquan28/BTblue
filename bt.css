@@ -7,7 +7,59 @@
 
 }
 .khung .dang{
-
+	width: 100%;
+	height: 300px;
+	background: white;
+}
+.dang .dang1{
+	float: left;
+	width: 32%;
+	height:300px;
+	/*background: gray;*/
+}
+.dang .diff{
+	margin-left: 2%;
+	margin-right: 2%;
+}
+.dang1 .dangtop{
+	width: 100%;
+	height: 100px;
+	/*background: blue;*/
+}
+.dang1 .dangbot{
+	width: 100%;
+	height: 200px;
+	/*background: yellow;*/
+}
+.dangtop h2{
+	color: blue;
+	margin: 0;
+	padding-top: 40px;
+}
+.dangtop img{
+	float: right;
+	width: 30%;
+	height: 30px;
+	margin-bottom: 10px;
+}
+.dangbot p{
+	color: black;
+	font-size: 20px;
+	margin: 0;
+}
+.dangbot a{
+	display: block;
+	width: 40%;
+	height: 40px;
+	font-size: 10px;
+	background: white;
+	text-decoration: none;
+	text-align: center;
+	line-height: 40px;
+	margin-top: 20px;
+	margin-left: 20px;
+	font-size: 18px;
+	border-radius: 5px;
 }
 .khung .quan{
 
